@@ -20,7 +20,7 @@ module.exports = {
       image: 'https://s3.dexerto.com/thumbnails/_thumbnailLarge/when-does-black-ops-4-and-blackout-release.jpg',
       genre: 'FPS',
       createdAt: new Date(),
-      updatedAt: new Date()
+      updatedAt: new Date(),
     },
     {
       title: 'Counter-Strike',

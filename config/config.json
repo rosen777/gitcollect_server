@@ -2,21 +2,21 @@
   "development": {
     "username": "flatironschool",
     "password": null,
-    "database": "gamecollect",
+    "database": "gamecollect_db",
     "host": "localhost",
     "dialect": "postgresql"
   },
   "test": {
     "username": "flatironschool",
     "password": null,
-    "database": "gamecollect",
+    "database": "gamecollect_db",
     "host": "localhost",
     "dialect": "postgresql"
   },
   "production": {
     "username": "flatironschool",
     "password": null,
-    "database": "gamecollect",
+    "database": "gamecollect_db",
     "host": "localhost",
     "dialect": "postgresql"
   }

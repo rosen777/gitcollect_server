@@ -7,15 +7,12 @@ module.exports = (sequelize, DataTypes) => {
       },
       username: DataTypes.STRING,
       password: DataTypes.STRING
-    },
-    {
-      freezeTableName: true,
     }
   );
 
-  User.associate = (models) => {
-    User.hasMany(models.Game);
-  };
+  // User.associate = (models) => {
+  //   User.hasMany(models.Game);
+  // };
 
   return User;
 }
