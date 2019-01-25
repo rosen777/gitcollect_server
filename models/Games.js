@@ -10,15 +10,12 @@ module.exports = (sequelize, DataTypes) => {
       details: DataTypes.STRING,
       image: DataTypes.STRING,
       genre: DataTypes.STRING
-    },
-    {
-      freezeTableName: true,
     }
   );
 
-  Game.associate = (models) => {
-    Game.belongsTo(models.User);
-  };
+  // Game.associate = (models) => {
+  //   Game.belongsTo(models.User);
+  // };
 
   return Game;
 }
